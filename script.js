@@ -26,7 +26,7 @@ form.addEventListener('submit', (e) => {
 
   // Check if fields are not empty
   if(name === "" || age === "") {
-    alert("Inputs cannot be empty.");
+    alert("Please enter valid details");
     return;
   }
 
